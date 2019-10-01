@@ -11,10 +11,6 @@ collections:
         label: Global Site Config
         file: site-metadata.json
         fields:
-          - widget: image
-            name: faivcon
-            label: Favicon
-            hint: Site favicon
           - widget: string
             name: title
             label: Title
