@@ -1701,3 +1701,15 @@ collections:
                 required: false
                 hint: Position for sorting
                 valueType: int
+  - name: classes
+    label: Classes
+    files: 
+      - name: classes
+        label: Classses
+        file: src/pages/classes.md
+        fields: 
+          - widget: string
+            name: classes 
+            label: Classes
+            required: true
+            hint: The title of the class/course 
